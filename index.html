@@ -1,0 +1,39 @@
+<!doctype html>
+<html >
+  <head>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+
+        <script src="bower_components/jquery-ui/ui/widget.js"></script>
+
+        <script src="bower_components/blueimp-file-upload/js/jquery.iframe-transport.js"></script>
+
+        <script src="bower_components/blueimp-file-upload/js/jquery.fileupload-angular.js"></script>
+
+        <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <script src="bower_components/blueimp-file-upload/js/jquery.fileupload.js"></script>
+        <script src="bower_components/blueimp-file-upload/js/jquery.fileupload-process.js"></script>
+        <script src="bower_components/blueimp-file-upload/js/jquery.fileupload-validate.js"></script>
+
+        <script src="app.js"></script>
+
+
+  </head>
+  <body ng-controller="TodoListController">
+    <div>
+      
+      <form enctype="multipart/form-data" data-file-upload="options">
+        <input type="file" name="file" multiple="true"  />
+      </form>
+
+
+    </div>
+
+
+
+
+  </body>
+</html>
